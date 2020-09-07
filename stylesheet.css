@@ -1,0 +1,78 @@
+/*my color pallette
+https://coolors.co/320e3b-4c2a85-5c55ae-6b7fd7-94b6e7-bcedf6-cdf4e4-ddfbd2
+#320E3B - "Russian Violet"
+#4C2A85 - "Spanish Violet"
+#5C55AE - "Liberty"
+#6B7FD7 - "Glaucous"
+#94B6E7 - "French Sky Blue"
+#BCEDF6 - "Blizzard Blue"
+#CDF4E4 - "Aero Blue"
+#DDFBD2 - "Nyanza"*/
+
+/*GLOBAL STYLES
+-------------------------------------------------------------*/
+
+body{
+    background-color: #DDFBD2;
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px;
+}
+
+img{
+    width: 300px
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/*INTRODUCTION SECTION
+-------------------------------------------------------------*/
+
+.intro{
+    background:#BCEDF6;
+    font-size: larger;
+}
+
+
+
+/*FEATURED PROJECT SECTION
+-------------------------------------------------------------*/
+
+.featured{
+    background-color: #6B7FD7;
+}
+
+.featured .btn{
+    background: #94B6E7;
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #4C2A85;
+    font-size: 1.5em;
+}
+
+.featured .btn:hover{
+    opacity: 80%;
+}
+
+/*WORK SECTION
+-------------------------------------------------------------*/
+
+.work{
+    background-color: #4C2A85;
+}
+
+/*EDUCATION SECTION
+-------------------------------------------------------------*/
+
+.education{
+    background-color: #320E3B;
+    color: #DDFBD2;
+}
