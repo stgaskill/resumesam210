@@ -12,16 +12,42 @@ https://coolors.co/320e3b-4c2a85-5c55ae-6b7fd7-94b6e7-bcedf6-cdf4e4-ddfbd2
 /*GLOBAL STYLES
 -------------------------------------------------------------*/
 
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
 body{
-    background-color: #DDFBD2;
     margin: 0;
     padding: 0;
+    font-family:  'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 80px;
+    line-height: 1.2;
+}
+
+h2{
+    
+    font-size: 40px;
+}
+
+h1,h2{
+    font-family: 'Ranchers', cursive;
+    font-weight: 300;
+    margin:0;
 }
 
 .content-wrap{
     width: 800px;
     margin: 0 auto;
-    padding: 60px;
+    padding: 60px 0;
 }
 
 img{
@@ -37,7 +63,7 @@ a:hover{
 
 .intro{
     background:#BCEDF6;
-    font-size: larger;
+    
 }
 
 
@@ -45,21 +71,42 @@ a:hover{
 /*FEATURED PROJECT SECTION
 -------------------------------------------------------------*/
 
-.featured{
+.featured,.featuredhead{
     background-color: #6B7FD7;
+}
+
+.featuredhead{
+    margin-bottom: 0 auto;
 }
 
 .featured .btn{
     background: #94B6E7;
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 4px;
     text-decoration: none;
     color: #4C2A85;
-    font-size: 1.5em;
+    font-size: 1em;
+    display: inline-block;
 }
 
 .featured .btn:hover{
     opacity: 80%;
+}
+
+.featureditem{
+    overflow: hidden;
+    border-bottom: 1px dashed #CDF4E4;
+    padding: 25px 0;
+    margin-bottom: 0;
+}
+
+.featureditem img{
+    float: left;
+    margin-right: 15px;
+}
+
+.featureditem h3{
+    margin-top: 0;
 }
 
 /*WORK SECTION
@@ -74,5 +121,12 @@ a:hover{
 
 .education{
     background-color: #320E3B;
+    color: #DDFBD2;
+}
+
+/*EDUCATION SECTION
+-------------------------------------------------------------*/
+.footer{
+    background-color: #2D0D36;
     color: #DDFBD2;
 }
